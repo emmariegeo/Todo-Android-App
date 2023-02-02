@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorSurface"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".SignUpActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/Widget.MaterialComponents.ActionBar.Primary" />
+
+    <TextView
+        android:id="@+id/title_textView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:text="@string/create_account"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textAppearance="?attr/textAppearanceTitleLarge"
+        android:textColor="?attr/colorPrimary"
+        android:textSize="48sp" />
+
+    <EditText
+        android:id="@+id/editText_PersonName"
+        style="@style/Widget.Material3.AutoCompleteTextView.FilledBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="@string/name"
+        android:background="@android:drawable/editbox_background_normal"
+        android:ems="10"
+        android:hint="@string/name"
+        android:inputType="textPersonName"
+        tools:ignore="TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/editText_EmailAddress"
+        style="@style/Widget.Material3.AutoCompleteTextView.FilledBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="@string/email"
+        android:background="@android:drawable/editbox_background_normal"
+        android:ems="10"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        tools:ignore="TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/editText_Password"
+        style="@style/Widget.Material3.AutoCompleteTextView.FilledBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="password"
+        android:background="@android:drawable/editbox_background_normal"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        tools:ignore="TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/editText_PasswordConfirm"
+        style="@style/Widget.Material3.AutoCompleteTextView.FilledBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="password"
+        android:background="@android:drawable/editbox_background_normal"
+        android:ems="10"
+        android:hint="@string/confirm_password"
+        android:inputType="textPassword"
+        tools:ignore="TextContrastCheck" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="18dp" />
+
+    <Button
+        android:id="@+id/signUp_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_up"
+        android:textAllCaps="true"
+        android:textSize="16sp" />
+
+</LinearLayout>

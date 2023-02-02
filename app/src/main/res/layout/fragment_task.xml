@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".TaskFragment"
+    tools:menu="@menu/fragment_task">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize" />
+
+    <TextView
+        android:id="@+id/task_title_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+        tools:text="Task Title" />
+
+    <TextView
+        android:id="@+id/task_date_label"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        tools:text="Date" />
+
+    <TextView
+        android:id="@+id/task_description_label"
+        android:layout_width="332dp"
+        android:layout_height="113dp"
+        android:isScrollContainer="false"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        tools:text="Description" />
+
+    <TextView
+        android:id="@+id/task_priority_heading"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:text="@string/priority_desc"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+    <TextView
+        android:id="@+id/task_priority_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:text="@string/priority_level"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2" />
+
+</LinearLayout>

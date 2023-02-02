@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Todo App</string>
+    <string name="to_done">To Done</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="signupprompt">Don\'t have an account?</string>
+    <string name="login">Login</string>
+    <string name="create_account">Create Account</string>
+    <string name="name">Name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="editBtnDesc">Edit Task</string>
+    <string name="todays_tasks">Today\'s Tasks</string>
+    <string name="addTask">Add Task</string>
+    <string name="editTask">Edit task</string>
+    <string name="update_task">Update Task</string>
+    <string name="your_task">Your Task</string>
+    <string name="your_task_description_here">Your task description here.</string>
+    <string name="deadline">Deadline</string>
+    <string name="add_task_desc">Add task</string>
+    <string name="your_tasks">Your Tasks</string>
+    <string name="filterTask">Filter tasks</string>
+    <string name="date_picker_title">Task deadline:</string>
+    <string name="createtask">Create Task</string>
+    <string name="priority_lowest_to_highest">Priority (Lowest to Highest)</string>
+    <string name="title">Title</string>
+    <string name="show_completed_tasks">Show completed tasks</string>
+    <string name="sort_tasks_by">Sort Tasks By</string>
+    <string name="delete_completed_tasks">Delete Completed Tasks</string>
+    <string name="priority_level">Priority Level</string>
+    <string name="description">Description</string>
+    <string name="priority_desc">Priority Level:</string>
+    <string-array name="priorities">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+</resources>
